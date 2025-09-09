@@ -21,7 +21,7 @@ const DropdownMenu = ({ items }) => {
             {item.subtext}
           </p>
 
-          {/* Arrow just after subtext */}
+          
           <div className="flex justify-end mt-4 text-xl">
             <FiArrowRight />
           </div>

@@ -7,7 +7,7 @@ function Navbar() {
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  // ✅ Only controls Hero (since Provider wraps Hero in App.jsx)
+  
   const { isDark, toggleDarkMode } = useDarkMode();
 
   const menuItems = [
@@ -79,7 +79,7 @@ function Navbar() {
 
       {/* Right Side Buttons */}
       <div className="flex items-center space-x-4">
-        {/* Dark Mode Button (controls Hero only) */}
+        
         <button
           onClick={toggleDarkMode}
           className="p-2 rounded-full"
@@ -91,7 +91,7 @@ function Navbar() {
           )}
         </button>
 
-        {/* Contact Button (desktop only) */}
+        
         <a
           href="#contact"
           className="hidden md:inline-block bg-black text-white font-semibold px-6 py-2 rounded-md hover:bg-pink-500 transition-colors"

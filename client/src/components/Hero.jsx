@@ -131,7 +131,7 @@ function Hero() {
         </div>
       </div>
 
-      {/* Trusted Agency Section */}
+      
       <div
         className={`flex flex-col md:flex-row items-center justify-between w-full mt-2 px-8 md:px-16 lg:px-24 py-4 rounded-3xl transition-colors duration-500 ${
           isDark ? "bg-black text-white" : "bg-white text-black"
